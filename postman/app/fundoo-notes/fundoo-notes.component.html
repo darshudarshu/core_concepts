@@ -1,0 +1,53 @@
+<mat-toolbar style="background-color: #f8bb01;">
+    <button mat-icon-button (click)="drawer.toggle()"><mat-icon>menu</mat-icon></button>
+
+    <span class="title">Fundoo Notes</span>
+    <span class="search"><mat-icon>search </mat-icon></span>
+    <input class="searchbar" type="text" placeholder="Search">
+    <mat-icon> refresh</mat-icon>
+    <mat-icon>view_stream</mat-icon>
+    <mat-icon><img src="../../assets/img/fundoAssests/apps.svg"></mat-icon>
+    <mat-icon>notifications </mat-icon>
+    <!-- <mat-icon>person</mat-icon> -->
+    <button mat-icon-button> <mat-icon><img src="../../assets/img/fundoAssests/user.svg"></mat-icon></button>
+</mat-toolbar>
+<mat-sidenav-container class="sidenav-container">
+    <mat-sidenav #drawer class="sidenav" fixedInViewport="true" fixedTopGap="64" mode="side">
+        <!-- <mat-sidenav #drawer mode="side"> -->
+        <mat-nav-list>
+            <div style="background-colour:blue">
+                <a mat-list-item routerLink="/register">
+                    <mat-icon> <img src="../../assets/img/login/bulb.svg"></mat-icon>Notes</a>
+                <a mat-list-item href="#">
+                    <mat-icon><img src="../../assets/img/fundoAssests/touch.svg"></mat-icon>Remainders</a>
+                <mat-divider>
+                </mat-divider>
+                <div class="label">Labels
+                    <button class="edit" mat-icon-button>EDIT</button></div>
+                <a mat-list-item href="#">
+                    <mat-icon> add </mat-icon>Create new label</a>
+                <mat-divider style="padding-top: 8px">
+                </mat-divider>
+                <a mat-list-item href="#">
+                    <mat-icon>archive</mat-icon>Archive</a>
+                <a mat-list-item href="#">
+                    <mat-icon> delete</mat-icon>Trash</a>
+                <mat-divider style="padding-top: 8px">
+                </mat-divider>
+                <a mat-list-item href=" # ">
+                    <mat-icon>settings</mat-icon>Settings</a>
+                <a mat-list-item href="# ">
+                    <mat-icon>feedback</mat-icon>Send feedback</a>
+                <a mat-list-item href="# ">
+                    <mat-icon> help</mat-icon>Help</a>
+                <a mat-list-item href="# ">
+                    <mat-icon><img src="../../assets/img/fundoAssests/Appdownloads.svg "></mat-icon>App downloads</a>
+                <a mat-list-item href="# ">
+                    <mat-icon>keyboard</mat-icon>Keyboard shortcuts</a>
+            </div>
+        </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content>
+
+    </mat-sidenav-content>
+</mat-sidenav-container>

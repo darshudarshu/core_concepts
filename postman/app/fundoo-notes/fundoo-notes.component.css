@@ -1,0 +1,54 @@
+    .sidenav-container {
+        height: 100%;
+    }
+    
+    .sidenav {
+        width: 270px;
+        background-color: #e8e8e8;
+    }
+    
+    .mat-drawer-container {
+        /* background-color: red; */
+    }
+    
+    .title {
+        padding-left: 30px;
+        font-size: 21px;
+    }
+    
+    .searchbar {
+        background: transparent;
+        border: none;
+        height: 25px;
+        outline: none;
+        padding: 11px 16px 11px 16px;
+        width: 51%;
+        background-color: #efb401;
+        font: normal 16px Roboto, sans-serif;
+        font-variant-ligatures: none;
+        margin-right: 33px;
+        margin-left: -21px;
+    }
+    
+    .search {
+        padding-left: 45px;
+        padding-top: 4px;
+        color: #705400;
+        height: 25px;
+    }
+    
+    .mat-icon {
+        width: 50px;
+    }
+    
+    .label {
+        cursor: default;
+        font-size: 15px;
+        padding: 15px 24px 10px;
+        color: black;
+    }
+    
+    .edit {
+        margin-left: 110px;
+        font-size: 13px
+    }
